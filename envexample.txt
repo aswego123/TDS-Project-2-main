@@ -1,0 +1,3 @@
+AIPIPE_TOKEN = 
+AIPIPE_API_URL = "https://aipipe.org/openrouter/v1/chat/completions"
+SECRET = 
