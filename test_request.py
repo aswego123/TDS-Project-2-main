@@ -6,7 +6,7 @@ load_dotenv()
 
 # Replace with your deployed URL
 # Example: https://your-project-name.vercel.app
-DEPLOYED_URL = "https://tds-project-2-khaki.vercel.app/"
+DEPLOYED_URL = "https://tds-project-2-main-two.vercel.app/"
 if not DEPLOYED_URL.endswith("/"):
     DEPLOYED_URL += "/"
 
@@ -15,10 +15,10 @@ ENDPOINT = f"{DEPLOYED_URL}receive_request"
 # Get secret from .env or input
 SECRET = os.getenv("SECRET")
 if not SECRET:
-    SECRET = "Hussain"
+    SECRET = "anjali2025"
 
 payload = {
-    "email": "24f1002299@ds.study.iitm.ac.in", # Replace with your actual email if needed
+    "email": "24ds100070@ds.study.iitm.ac.in", # Replace with your actual email if needed
     "secret": SECRET,
     "url": "https://tds-llm-analysis.s-anand.net/demo"
 }
